@@ -6,3 +6,26 @@
 *{
     font-family: "Jost", sans-serif;
 }
+
+.sk1{
+    /* background-color: aqua; */
+    animation-name: demo;
+    animation-duration: 10s;
+    transition: all 5s;
+
+}
+.sk2{
+    /* background-color: aqua; */
+    animation-name: demo;
+    animation-duration: 20s;
+    transition: all 5s;
+
+}
+
+
+@keyframes demo {
+    0% {background-color: red; transform: translateX(200px);}
+    50% {background-color: yellow; transform: translateX(400px);}
+    0% {background-color: yellow; transform: translateX(400px);}
+  }
+

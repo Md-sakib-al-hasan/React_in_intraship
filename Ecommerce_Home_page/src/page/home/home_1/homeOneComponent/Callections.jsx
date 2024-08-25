@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import woman from "../../../../assets/Home_page_one/collection_sections/woman.jpg";
 
 const Callections = () => {
@@ -45,7 +45,7 @@ const Callections = () => {
           </div>
           <div className="2xl:w-1/2 xl:w-3/4">
             <img
-              className="object-cover w-full md:h-[400px] h-[285px] bg-green-200"
+              className="object-cover w-full md:h-[400px] h-[285px]  hover:scale-110 bg-green-200"
               src={woman}
               alt="Woman"
             />

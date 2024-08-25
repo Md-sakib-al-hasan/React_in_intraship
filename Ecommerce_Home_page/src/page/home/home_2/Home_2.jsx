@@ -1,10 +1,11 @@
 import Banner from "./homeTwoComponent/Banner";
+import TextAnimation from "./homeTwoComponent/demo";
 import Navigtion from "./homeTwoComponent/Navigtion";
 
 const Home_2 = () => {
   return (
     <div>
-      <header className="bg-green-500">
+      <header className="">
         <nav>
           <Navigtion></Navigtion>
         </nav>
@@ -12,12 +13,7 @@ const Home_2 = () => {
           <Banner></Banner>
         </section>
       </header>
-      <div class="relative bg-red-600 flex items-center justify-center h-60 w-60">
-        <div class="relative text-[60px] font-bold text-transparent border-4 border-black border-dotted rounded-full flex items-center justify-center h-full w-full">
-          O
-        </div>
-        <div class="absolute top-0 left-[calc(50%-12px)] w-[24px] h-full bg-t"></div>
-      </div>
+      <TextAnimation text="Sakib But" />
     </div>
   );
 };

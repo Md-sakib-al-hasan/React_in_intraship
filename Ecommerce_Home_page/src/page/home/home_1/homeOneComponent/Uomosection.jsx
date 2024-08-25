@@ -13,8 +13,12 @@ const Uomosection = () => {
       {/* first_part */}
       <div className="flex gap-1 flex-wrap w-4/5 mx-auto mt-7">
         {data.map((url, id) => (
-          <div className="lg:w-[16%] md:w-[24.5%]" key={id}>
-            <img className="object-cover w-full h-full" src={url} alt="imge" />{" "}
+          <div className="lg:w-[16%] flex md:w-[24.5%]" key={id}>
+            <img
+              className="object-cover flex-1 w-full h-full"
+              src={url}
+              alt="imge"
+            />{" "}
           </div>
         ))}
       </div>

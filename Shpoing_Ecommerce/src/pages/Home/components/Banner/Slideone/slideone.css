@@ -1,0 +1,61 @@
+
+.summer_line{
+    animation: slide_left_to_right;
+    animation-duration: 1s;
+    z-index: 0;
+
+}
+
+.summer-year{
+    animation: slide_right_to_left;
+    animation-duration: 1s;
+}
+
+
+.summer_sale{
+    animation: summer_sale_3d;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    transform-origin: top ;
+    animation-direction: reverse ;
+    animation-timing-function: cubic-bezier(1, 0.82, 0.165, 0.075);
+}
+
+.woman{
+    animation: summer_sale_3d;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    transform-origin: top ;
+
+}
+.discovermore{
+    animation-name: discovermore;
+    animation-duration: 1s;
+}
+
+
+@keyframes discovermore {
+    from{translate: 0px 100px ;}
+    to{translate: 0px 0px ;}
+}
+
+
+@keyframes slide_left_to_right {
+    from{translate: -80px 0px ;}
+    to{translate: 0px 0px ;}
+}
+
+
+@keyframes slide_right_to_left {
+    from{translate: 80px 0px ;}
+    to{translate: 0px 0px ;}
+}
+
+
+@keyframes summer_sale_3d {
+    100%{transform: rotateX(90deg); }
+    80%{transform: rotateX(98deg) }
+    0%{transition: rotateX(0deg);}
+}
+
+

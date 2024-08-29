@@ -1,5 +1,6 @@
 import Banner from "./components/Banner/Banner";
 import Callections from "./components/Collection/Collection";
+import PracticeComponent from "./components/demo/Demo";
 import Limited_edition from "./components/LimitedEdition/Limitedediton";
 import Springcollections from "./components/SpringCollection/SpringCollection";
 import TrendyProducts from "./components/TrendyProducts/TrendyProduct";
@@ -11,21 +12,12 @@ const Home = () => {
       <section>
         <Banner></Banner>
       </section>
-      <section>
-        <Callections></Callections>
-      </section>
-      <section>
-        <TrendyProducts></TrendyProducts>
-      </section>
-      <section>
-        <Springcollections></Springcollections>
-      </section>
-      <section>
-        <Limited_edition></Limited_edition>
-      </section>
-      <section>
-        <Uomosection></Uomosection>
-      </section>
+      <section>{/* <Callections></Callections> */}</section>
+      <section>{/* <TrendyProducts></TrendyProducts> */}</section>
+      <section>{/* <Springcollections></Springcollections> */}</section>
+      <section>{/* <Limited_edition></Limited_edition> */}</section>
+      <section>{/* <Uomosection></Uomosection> */}</section>
+      {/* <PracticeComponent></PracticeComponent> */}
     </div>
   );
 };

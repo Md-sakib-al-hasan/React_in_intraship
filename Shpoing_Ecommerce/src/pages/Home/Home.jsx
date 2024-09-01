@@ -12,12 +12,21 @@ const Home = () => {
       <section>
         <Banner></Banner>
       </section>
-      <section>{/* <Callections></Callections> */}</section>
-      <section>{/* <TrendyProducts></TrendyProducts> */}</section>
-      <section>{/* <Springcollections></Springcollections> */}</section>
-      <section>{/* <Limited_edition></Limited_edition> */}</section>
-      <section>{/* <Uomosection></Uomosection> */}</section>
-      {/* <PracticeComponent></PracticeComponent> */}
+      <section>
+        <Callections></Callections>
+      </section>
+      <section className="mt-[110px]">
+        <TrendyProducts></TrendyProducts>
+      </section>
+      <section className="mt-[110px]">
+        <Springcollections></Springcollections>
+      </section>
+      <section className="mt-[100px]">
+        <Limited_edition></Limited_edition>
+      </section>
+      <section>
+        <Uomosection></Uomosection>
+      </section>
     </div>
   );
 };

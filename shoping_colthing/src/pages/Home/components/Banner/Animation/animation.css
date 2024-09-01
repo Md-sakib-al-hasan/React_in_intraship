@@ -1,0 +1,10 @@
+.content-animation {
+    width: 0%;
+    animation: content-animation;
+    animation-duration: 10s;
+}
+
+@keyframes content-animation {
+   from{width: 0%;}
+   to{width: 100%;}
+}

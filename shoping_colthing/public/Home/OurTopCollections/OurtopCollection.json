@@ -1,0 +1,167 @@
+[
+    {
+      "id": 1,
+      "name": "Elegant Dress One",
+      "categories": "Dresses",
+      "owner": "Alice Johnson",
+      "price": 150.00,
+      "favorites": true,
+      "image": "https://i.ibb.co/ZcZ6HT1/Dressone.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Chic Dress Two",
+      "categories": "Dresses",
+      "owner": "Emily Brown",
+      "price": 80.00,
+      "discountedPrice": 80.00,
+      "discountPercentage": 0,
+      "favorites": false,
+      "image": "https://i.ibb.co/MGjRLfW/Dresstwo.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Classic Dress Three",
+      "categories": "Dresses",
+      "owner": "Sophia Davis",
+      "price": 200.00,
+      "discountedPrice": 160.00,
+      "discountPercentage": 20,
+      "favorites": true,
+      "image": "https://i.ibb.co/WHKNb6W/Dress-Three.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Stylish Dress Four",
+      "categories": "Dresses",
+      "owner": "Olivia Wilson",
+      "price": 100.00,
+      "favorites": false,
+      "image": "https://i.ibb.co/1Z2F8zT/Dress-Foure.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Trendy Dress Five",
+      "categories": "Dresses",
+      "owner": "Mia Martinez",
+      "price": 75.00,
+      "discountedPrice": 75.00,
+      "discountPercentage": 0,
+      "favorites": true,
+      "image": "https://i.ibb.co/d0pPCTY/Dress-Five.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Elegant Dress Six",
+      "categories": "Dresses",
+      "owner": "Lily Clark",
+      "price": 300.00,
+      "discountedPrice": 270.00,
+      "discountPercentage": 10,
+      "favorites": true,
+      "image": "https://i.ibb.co/xG5pncQ/DressSix.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Glamorous Dress Seven",
+      "categories": "Dresses",
+      "owner": "Ava Taylor",
+      "price": 220.00,
+      "favorites": false,
+      "image": "https://i.ibb.co/Vmvq1X3/Dress-Seven.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Modern Dress Eight",
+      "categories": "Dresses",
+      "owner": "Isabella Anderson",
+      "price": 180.00,
+      "discountedPrice": 180.00,
+      "discountPercentage": 0,
+      "favorites": true,
+      "image": "https://i.ibb.co/YXfTh8Z/Dress-Eight.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Elegant Dress One",
+      "categories": "Dresses",
+      "owner": "Alice Johnson",
+      "price": 150.00,
+      "favorites": true,
+      "image": "https://i.ibb.co/ZcZ6HT1/Dressone.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Chic Dress Two",
+      "categories": "Dresses",
+      "owner": "Emily Brown",
+      "price": 80.00,
+      "discountedPrice": 80.00,
+      "discountPercentage": 0,
+      "favorites": false,
+      "image": "https://i.ibb.co/MGjRLfW/Dresstwo.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Classic Dress Three",
+      "categories": "Dresses",
+      "owner": "Sophia Davis",
+      "price": 200.00,
+      "discountedPrice": 160.00,
+      "discountPercentage": 20,
+      "favorites": true,
+      "image": "https://i.ibb.co/WHKNb6W/Dress-Three.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Stylish Dress Four",
+      "categories": "Dresses",
+      "owner": "Olivia Wilson",
+      "price": 100.00,
+      "favorites": false,
+      "image": "https://i.ibb.co/1Z2F8zT/Dress-Foure.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Trendy Dress Five",
+      "categories": "Dresses",
+      "owner": "Mia Martinez",
+      "price": 75.00,
+      "discountedPrice": 75.00,
+      "discountPercentage": 0,
+      "favorites": true,
+      "image": "https://i.ibb.co/d0pPCTY/Dress-Five.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Elegant Dress Six",
+      "categories": "Dresses",
+      "owner": "Lily Clark",
+      "price": 300.00,
+      "discountedPrice": 270.00,
+      "discountPercentage": 10,
+      "favorites": true,
+      "image": "https://i.ibb.co/xG5pncQ/DressSix.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Glamorous Dress Seven",
+      "categories": "Dresses",
+      "owner": "Ava Taylor",
+      "price": 220.00,
+      "favorites": false,
+      "image": "https://i.ibb.co/Vmvq1X3/Dress-Seven.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Modern Dress Eight",
+      "categories": "Dresses",
+      "owner": "Isabella Anderson",
+      "price": 180.00,
+      "discountedPrice": 180.00,
+      "discountPercentage": 0,
+      "favorites": true,
+      "image": "https://i.ibb.co/YXfTh8Z/Dress-Eight.jpg"
+    }
+  ]
+

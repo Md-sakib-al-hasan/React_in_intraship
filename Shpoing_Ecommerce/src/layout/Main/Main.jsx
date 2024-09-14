@@ -11,7 +11,7 @@ const Main = () => {
       <Suspense fallback={<Loading />}>
         <Outlet />
       </Suspense>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 };

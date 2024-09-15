@@ -1,0 +1,40 @@
+/* Keyframes for increasing font size */
+@keyframes increaseFontSize {
+    0% {
+      font-size: 14px;
+    }
+    100% {
+      font-size: 50px;
+    }
+  }
+  
+  /* Animation for smaller screens */
+  @keyframes increaseFontSizeSmall {
+    0% {
+      font-size: 14px;
+    }
+    100% {
+      font-size: 32px;
+    }
+  }
+  
+  .font-grow {
+    animation: increaseFontSize 2s ease-in-out forwards;
+  }
+  
+  /* Slide-in animations */
+  .slide-left {
+    animation: slideInFromLeft 1s ease-in-out forwards;
+  }
+  
+  .slide-right {
+    animation: slideInFromRight 1s ease-in-out forwards;
+  }
+  
+  /* Media query for screen widths smaller than 600px */
+  @media (max-width: 600px) {
+    .font-grow {
+      animation: increaseFontSizeSmall 2s ease-in-out forwards;
+    }
+  }
+  

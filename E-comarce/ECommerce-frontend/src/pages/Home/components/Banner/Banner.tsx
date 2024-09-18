@@ -7,7 +7,6 @@ import {  useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "../../../../app/store";
 import { fetchBanners } from "../../../../features/HomeSlice/Components/BannerSlice/bannerSlice";
 import Loadin from "../../../Loading/loading";
-import { pre } from "framer-motion/client";
 const Banner = () => {
   const [activeslide, setActiveslide] = useState(0);
   const [activearrowimge, setActivearrowimge] = useState(false);
@@ -74,7 +73,7 @@ const Banner = () => {
             className={`min-w-full      relative ${
               activeslide == index ? "block" : "hidden"
             }`}
-            key={slide.id}
+            key={index}
           >
             <div>
               <img
@@ -157,7 +156,7 @@ const Banner = () => {
             </div>
             {/* pointer design  */}
             <div className="absolute bottom-2 left-1/2 flex gap-2 translate-x-[-50%] ">
-             {slides.map((_,id) =>(              <button
+             {slides.map((_,id) =>(              <button key={id}
                 onClick={() => setActiveslide(id)}
                 className={` ${
                   activeslide === id ? "h-3 w-3 " : "h-2 w-2"

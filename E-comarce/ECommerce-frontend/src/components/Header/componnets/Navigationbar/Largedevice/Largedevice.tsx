@@ -16,6 +16,7 @@ import menu from "../../../../../assets/Header/nav_icon.png";
 import kids from "../../../../../assets/Header/big-screen/Kids.jpg";
 import woman from "../../../../../assets/Header/big-screen/woman.jpg";
 import big_screen_man from "../../../../../assets/Header/big-screen/man.jpg";
+import AddCard from "../AddCard/AddCard";
 
 
 
@@ -78,6 +79,7 @@ const Largedevice = () => {
   ];
     return (
       <nav>
+        <AddCard></AddCard>
         {/* shadow show  */}
         <div
       onClick={() => dispatch(handelscrencontroler())}

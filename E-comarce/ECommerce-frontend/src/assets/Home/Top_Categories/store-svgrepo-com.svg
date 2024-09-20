@@ -1,36 +1,3 @@
-import  {   useState } from 'react';
-import { svgobject } from '../../../../../features/HomeSlice/Components/Top_Callections/top_CallecttionSlice';
-
-
-
-const Item = ({ icon, name,loading ,error }: { icon: svgobject; name: string,loading:boolean,error:string | null }) => {
-     const [iconhover,setIconhover] = useState<boolean>(false)
-
-
-
-
-
-  return (
-    <div onMouseOver={()=> setIconhover(true)} onMouseOut={()=> setIconhover(false)} className="max-h-[158px] transform transition-all duration-200 max-w-[120px] space-y-[15px] group ">
-      <figure className="relative">
-        <div className="h-28 w-28 rounded-full bg-white"></div>
-        {
-          loading?<div className='absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]'>Loading....</div>:  <svg className="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] group-hover:text-white " fill={`${iconhover?"#222222":" #767676"} `} width={icon.width} height={icon.height} viewBox={icon.viewBox}  xmlns={icon.xmlns} >
-          {icon.paths.map((d,id) => <path key={id} d={d} />)}
-          </svg>
-        }
-        
-        
-      </figure>
-      <p className="capitalize font-medium text-lg text-center group-hover:text-red-500">{error?error:name}</p>
-    </div>
-  );
-};
-
-export default Item;
-
-
-
  <svg  className="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] group-hover:text-white w-[40%]" fill='green' height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" 
             viewBox="0 0 512 512" >
           

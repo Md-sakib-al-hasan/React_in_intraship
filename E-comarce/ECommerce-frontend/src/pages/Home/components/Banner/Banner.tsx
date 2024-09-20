@@ -101,12 +101,15 @@ const Banner = () => {
                 }
                 className="hidden lg:block "
               >
-                <img
-                  className="md:hidden lg:block lg:w-6 md:w-4 absolute xl:top-[49.7%] lg:top-[51%] top-10 xl:left-[2.8%] lg:left-[4%] md:top-[51%] z-20"
+
+                <div className=" md:hidden lg:block absolute top-[47%] left-[2%]">
+                  <div className="relative">
+                  <img
+                  className=" absolute bottom-[-45px] left-1/2  translate-x-[-50%]  z-20"
                   src={left}
                   alt="bannerarrow"
                 />
-                <div className=" md:hidden lg:block absolute top-[47%] left-[2%]">
+                  </div>
                   <div
                     className={`${
                       activearrowimge ? "hidden" : "block"
@@ -131,12 +134,15 @@ const Banner = () => {
                 }
                 className="hidden lg:block"
               >
-                <img
-                  className="md:hidden lg:block  absolute xl:top-[49.6%] lg:top-[51%] xl:right-[3.1%] lg:right-[4%] z-20"
+               
+                <div className="absolute top-[47%] right-[2%]">
+                <div className="relative">
+                  <img
+                  className=" absolute bottom-[-45px] left-1/2  translate-x-[-50%]  z-20"
                   src={right}
                   alt="bannerarrow"
                 />
-                <div className="absolute top-[47%] right-[2%]">
+                  </div>
                   <div
                     className={`${
                       activearrowimge1 ? "hidden" : "block"

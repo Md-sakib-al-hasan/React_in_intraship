@@ -5,7 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 
 
-const Main = () => {
+const RootLayout = () => {
     return (
         <div>
             <Header></Header>
@@ -17,4 +17,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default RootLayout;

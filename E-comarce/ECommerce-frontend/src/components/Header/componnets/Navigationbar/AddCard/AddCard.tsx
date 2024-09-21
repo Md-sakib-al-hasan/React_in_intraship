@@ -5,7 +5,7 @@ import demo from "../../../../../assets/Header/big-screen/Kids.jpg"
 
 const AddCard = () => {
     return (
-        <div style={{right:`${false?"0":"-1000px"}`}}  className="lg:w-[31%] overflow-hidden transition-all duration-200  sm:w-[45%] w-[80%]   min-h-svh z-40 bg-white absolute  flex flex-col justify-between">
+        <div    className="lg:w-[31%] hidden  transition-all duration-200  sm:w-[45%] w-[80%]   min-h-svh z-40 bg-white absolute right-0  flex flex-col justify-between">
             {/* part one  */}
             <div>
                          {/* sub part one  */}

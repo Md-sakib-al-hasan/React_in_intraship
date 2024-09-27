@@ -17,6 +17,7 @@ import kids from "../../../../../assets/Header/big-screen/Kids.jpg";
 import woman from "../../../../../assets/Header/big-screen/woman.jpg";
 import big_screen_man from "../../../../../assets/Header/big-screen/man.jpg";
 import AddCard from "../AddCard/AddCard";
+import { showOrHidden } from "../../../../../features/Auth/AuthSlice/AuthSlice";
 
 
 
@@ -149,9 +150,9 @@ const Largedevice = () => {
             </button>
           </li>
           <li>
-            <Link to="#">
+            <button onClick={() => dispatch(showOrHidden(true))}>
               <img src={man} alt="man" />
-            </Link>
+            </button>
           </li>
           <li className="relative">
             <Link to="#">
